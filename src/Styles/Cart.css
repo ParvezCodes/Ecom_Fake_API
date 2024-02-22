@@ -1,0 +1,37 @@
+.heading {
+  text-align: center;
+}
+
+.cartItems {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkout p {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.btnnn {
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.empty {
+  text-align: center;
+}

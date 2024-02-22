@@ -1,0 +1,47 @@
+nav {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo a {
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navMenu a,
+.cart a {
+  text-decoration: none;
+  padding: 7px 10px;
+  margin: 7px 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.navMenu a:hover {
+  border-bottom: 4px solid white;
+  border-radius: 5px 5px 0 0;
+}
+
+.cart {
+  margin: 0 15px;
+}
+
+.cart a {
+  font-size: 1.5rem;
+}
